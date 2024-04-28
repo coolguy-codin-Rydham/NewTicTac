@@ -1,5 +1,5 @@
 clone the repository
 
-npm i
-npm install tailwindcss postcss autoprefixer vite
-npm run dev
+npm i  <br>
+npm install tailwindcss postcss autoprefixer vite <br>
+npm run dev <br>
