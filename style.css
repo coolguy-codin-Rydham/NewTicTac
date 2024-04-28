@@ -1,0 +1,42 @@
+@tailwind components;
+@tailwind utilities;
+
+    @layer components{
+      body{
+          @apply bg-[#548687] text-center w-screen flex flex-col justify-center items-center;
+      }
+      #reset-btn{
+        @apply mt-[10px] p-4 text-xl bg-[#191913] text-white rounded-2xl border-none;
+      }
+      main{
+        @apply flex flex-col items-center justify-center w-full;
+      }
+      .container{
+        @apply h-[70vh] w-full flex justify-center items-center;
+      }
+      .game{
+        @apply h-[60vmin] w-[60vmin] flex flex-wrap justify-center items-center gap-[1.5vmin];
+      }
+      .box{
+        @apply h-[18vmin] w-[18vmin] rounded-[1rem] border-none text-[8vmin] text-[#b0413e] bg-[#ffffc7];
+      }
+      #new-btn{
+        @apply p-4 text-xl bg-[#191913] text-white rounded-2xl border-none;
+      }
+      #msg{
+        @apply text-[#ffffc7];
+      }
+      .msg-container{
+        @apply h-[100vmin] flex justify-center items-center flex-col gap-16;
+      }
+      .hide{
+        @apply hidden;
+      }
+     }
+  .box {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .hide {
+    display: none;
+  }
